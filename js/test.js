@@ -19,10 +19,10 @@ function buyProgrammer() {
     document.getElementByID('progCost').innerHTML = nextCost;
 };
 
-window.setInterval(function(){
+//window.setInterval(function(){
     //stuff runs in here every second
     //termClick(programmers);
-}, 1000);
+//}, 1000);
 
 //var terminal = document.getElementByID('ui_terminal');
 
@@ -31,7 +31,9 @@ window.setInterval(function(){
 //   termClick(cps);
 //}, false);
 
-$("#ui_terminal").on('click', function() {
+$(document).ready(function(){
+$("#ui_terminal").click( function() {
     console.log("you wrote a line of code");
     termClick(cps);
+});
 });
