@@ -18,7 +18,7 @@
 var lines = 0;
 var programmers = 0;
 
-function termclick(number) {
+function termClick(number) {
     lines = lines + number;
     document.getElementByID("lines").innerHTML = lines;
 };
