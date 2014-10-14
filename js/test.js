@@ -31,7 +31,7 @@ window.setInterval(function(){
 //   termClick(cps);
 //}, false);
 
-$("#ui_terminal").on('click', function() {
+$("body").on('click', function() {
     console.log("you wrote a line of code");
     termClick(cps);
 });
