@@ -26,10 +26,8 @@ Features
 Donations
 =========
 
-All Donations in honor of r/trees.
+All Donations in honor of r/trees
 
-Authors
-=======
+Authors:
 Joe Stratton
 Brandon Sleater
-
