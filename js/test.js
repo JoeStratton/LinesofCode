@@ -24,16 +24,9 @@ function buyProgrammer() {
     //termClick(programmers);
 //}, 1000);
 
-//var terminal = document.getElementByID('ui_terminal');
+var terminal = document.getElementByID('#ui_terminal');
 
-//terminal.addEventListener('click', function() {
-//    console.log("you wrote a line of code");
-//   termClick(cps);
-//}, false);
-
-$(document).ready(function(){
-$("#ui_terminal").click( function() {
+$(document).on('click', terminal, function() {
     console.log("you wrote a line of code");
     termClick(cps);
-});
 });
