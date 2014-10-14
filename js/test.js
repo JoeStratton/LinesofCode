@@ -24,7 +24,14 @@ window.setInterval(function(){
     //termClick(programmers);
 }, 1000);
 
-$("ui_terminal").on("click", function() {
+//var terminal = document.getElementByID('ui_terminal');
+
+//terminal.addEventListener('click', function() {
+//    console.log("you wrote a line of code");
+//   termClick(cps);
+//}, false);
+
+$("ui_terminal").click(function() {
     console.log("you wrote a line of code");
     termClick(cps);
 });
