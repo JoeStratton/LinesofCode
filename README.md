@@ -27,3 +27,9 @@ Donations
 =========
 
 All Donations in honor of r/trees.
+
+Authors
+=======
+Joe Stratton
+Brandon Sleater
+
