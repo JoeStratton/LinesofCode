@@ -32,7 +32,7 @@ function buyProgrammer() {
 //}, false);
 
 $(document).ready(function(){
-$("#ui_terminal").on("click", function() {
+$("#ui_terminal").click( function() {
     console.log("you wrote a line of code");
     termClick(cps);
 });
