@@ -1,5 +1,6 @@
 var lines = 0;
 var programmers = 0;
+var cps = 1;
 
 function termClick(number) {
     lines = lines + number;
@@ -20,5 +21,17 @@ function buyProgrammer() {
 
 window.setInterval(function(){
     //stuff runs in here every second
-    termClick(programmers);
+    //termClick(programmers);
 }, 1000);
+
+var terminal = document.getElementByID('ui_terminal');
+
+//terminal.addEventListener('click', function() {
+//    console.log("you wrote a line of code");
+//   termClick(cps);
+//}, false);
+
+terminal.click(function() {
+    console.log("you wrote a line of code");
+    termClick(cps);
+});

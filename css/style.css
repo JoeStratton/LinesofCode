@@ -23,6 +23,11 @@
 	color: #1abc9c;
 }
 
+#ui_terminal {
+	height: 400px;
+	background-color: #000;
+}
+
 .term-right {
 	margin-top: 18px;
 	color: #1abc9c;
