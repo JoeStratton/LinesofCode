@@ -1,0 +1,29 @@
+.title-cont {
+	margin-bottom: 30px;
+}
+
+.title-left {
+	font-size: 42px; 
+	width: 10px; 
+	color: #1abc9c;
+}
+
+.title-fwd {
+	margin-left: -6px; 
+	color: #34495e; 
+	font-size: 32px; 
+	margin-top: 2px; 
+	position: absolute;
+}
+
+.title-right {
+	font-size: 42px;
+	width: 10px;
+	margin-left: 11px;
+	color: #1abc9c;
+}
+
+.term-right {
+	margin-top: 18px;
+	color: #1abc9c;
+}
