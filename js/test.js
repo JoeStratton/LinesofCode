@@ -24,7 +24,7 @@ function buyProgrammer() {
     //termClick(programmers);
 //}, 1000);
 
-var terminal = document.getElementByID('#ui_terminal').value;
+var terminal = document.getElementByID('ui_terminal').value;
 
 $(document).on('click', terminal, function() {
     console.log("you wrote a line of code");
