@@ -14,3 +14,11 @@
     } catch ($ignore$$) {
     }
 })();
+
+var lines = 0;
+var programmers = 0;
+
+function termclick(number) {
+    lines = lines + number;
+    document.getElementByID("lines").innerHTML = lines;
+};
