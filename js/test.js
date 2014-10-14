@@ -31,7 +31,9 @@ function buyProgrammer() {
 //   termClick(cps);
 //}, false);
 
+$(document).ready(function(){
 $("body").on("click", function() {
     console.log("you wrote a line of code");
     termClick(cps);
+});
 });
