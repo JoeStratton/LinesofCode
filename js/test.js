@@ -21,7 +21,7 @@ function buyProgrammer() {
 
 window.setInterval(function(){
     //stuff runs in here every second
-    termClick(programmers);
+    //termClick(programmers);
 }, 1000);
 
 $("ui_terminal").on("click", function() {
