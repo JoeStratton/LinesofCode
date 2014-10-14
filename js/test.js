@@ -24,14 +24,14 @@ window.setInterval(function(){
     //termClick(programmers);
 }, 1000);
 
-var terminal = document.getElementByID('ui_terminal');
+//var terminal = document.getElementByID('ui_terminal');
 
 //terminal.addEventListener('click', function() {
 //    console.log("you wrote a line of code");
 //   termClick(cps);
 //}, false);
 
-terminal.click(function() {
+$("#ui_terminal").on('click', function() {
     console.log("you wrote a line of code");
     termClick(cps);
 });
