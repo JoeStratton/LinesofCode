@@ -2,9 +2,11 @@ var lines = 0;
 var programmers = 0;
 var cps = 1;
 
+var terminal = document.getElementByID('ui_terminal').innerHTML;
+
 function termClick(number) {
     lines = lines + number;
-    document.getElementByID("lines").innerHTML = lines;
+    document.getElementByID('lines').innerHTML = lines;
 };
 
 function buyProgrammer() {
@@ -23,8 +25,6 @@ function buyProgrammer() {
     //stuff runs in here every second
     //termClick(programmers);
 //}, 1000);
-
-var terminal = document.getElementByID('ui_terminal').value;
 
 $(document).on('click', terminal, function() {
     console.log("you wrote a line of code");
